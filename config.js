@@ -6,7 +6,7 @@ exports.lookup = {
 };
 
 exports.xmppServer = {
-    port: 3663,
+    port: 5222,
     packetHandlers: [
         require("./lib/xmpp-server/packet-handler/roster.js"),
         require("./lib/xmpp-server/packet-handler/presence.js"),

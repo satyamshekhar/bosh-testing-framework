@@ -1,0 +1,26 @@
+<body to="gmail.com" 
+      from="jaydeep.jhaveri@gmail.com" 
+      xml:lang="en" 
+      xmlns="http://jabber.org/protocol/httpbind" 
+      route="talkto:gtalk-tcp-handler:0" 
+      content="text/xml; charset=utf-8" 
+      hold="1" 
+      inactivity="150" 
+      secure="false" 
+      wait="60" 
+      ack="1" 
+      xmpp:version="1.0" 
+      xmlns:xmpp="urn:xmpp:xbosh" 
+      rid="7510762"/>
+
+
+<body content="text/xml; charset=utf-8" 
+      from="test1@loader.com" 
+      hold="1" 
+      to="stub-server@loader.com" 
+      wait="60" 
+      xmpp:version="1.0" 
+      xmlns:xmpp="urn:xmpp:xbosh:version" 
+      route="tfd-messaging-handler" 
+      rid="762" 
+      xmlns="http://jabber.org/protocol/httpbind"/>
